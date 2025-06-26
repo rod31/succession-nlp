@@ -25,7 +25,26 @@ Using transformer-based models (BERT), the project fine-tunes and evaluates mult
 - Generated character-specific versions of sample sentences
 
 ## 🚀 How to Run
+
 1. Open the Colab notebook (`succession_nlp.ipynb`)  
-2. Install dependencies:
-```python
-!pip install transformers datasets seaborn
+2. Install dependencies by running the following in a code cell:
+
+    ```python
+    !pip install transformers datasets seaborn
+    ```
+
+3. Run each cell to replicate training, evaluation, and text generation.
+
+## 📁 Repo Structure
+- `succession_nlp.ipynb` — full Colab notebook
+- `data/` — (optional) dialogue CSVs or sample inputs
+- `results/` — sample outputs, word clouds, confusion matrix images
+- `style_transfer_demo.txt` — generated examples
+- `README.md` — this file
+
+## 🧪 Project Background
+Built as a passion project during my final year at Drexel University, this project merges media, language, and machine learning to study the nuances of sarcastic dialogue and personality stylization in modern television.
+
+## 📫 Contact
+📧 Rodrigo01.aragao@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/rb-aragao)
