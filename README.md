@@ -20,25 +20,14 @@ Using transformer-based models (BERT), the project fine-tunes and evaluates mult
 - Style transfer using fine-tuned generation models
 
 ## 📊 Results
-- Achieved >90% test accuracy on sarcasm classification
+- Achieved decent test accuracy on sarcasm classification (Work in Progress)
 - Visualizations of character speech patterns (e.g., sentiment, topic models)
 - Generated character-specific versions of sample sentences
 
-## 🚀 How to Run
-
-1. Open the Colab notebook (`succession_nlp.ipynb`)  
-2. Install dependencies by running the following in a code cell:
-
-    ```python
-    !pip install transformers datasets seaborn
-    ```
-
-3. Run each cell to replicate training, evaluation, and text generation.
-
 ## 📁 Repo Structure
 - `succession_nlp.ipynb` — full Colab notebook
-- `data/` — (optional) dialogue CSVs or sample inputs
-- `results/` — sample outputs, word clouds, confusion matrix images
+- `succession_nlp.py` - python file
+- `data/` — dialogue CSVs or sample inputs
 - `style_transfer_demo.txt` — generated examples
 - `README.md` — this file
 
@@ -46,5 +35,5 @@ Using transformer-based models (BERT), the project fine-tunes and evaluates mult
 Built as a passion project during my final year at Drexel University, this project merges media, language, and machine learning to study the nuances of sarcastic dialogue and personality stylization in modern television.
 
 ## 📫 Contact
-📧 Rodrigo01.aragao@gmail.com  
+📧 rodrigo01.aragao@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/rb-aragao)
