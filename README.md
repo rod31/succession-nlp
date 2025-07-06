@@ -1,7 +1,7 @@
 # Succession NLP – Sarcasm Detection & Character Style Transfer
 
 ## 💬 Overview
-This project explores natural language processing techniques to classify **sarcasm** in dialogue from the TV series *Succession*, and to generate text in the style of specific characters.
+This project explores natural language processing techniques to classify **sarcasm** in dialogue from the TV series *Succession*, and to generate text in the style of specific characters. Up to this moment, I focused on generating text in the style of Roman Roy.
 
 Using transformer-based models (BERT), the project fine-tunes and evaluates multiple architectures for sarcasm detection. It also implements **style-aware text generation**, transforming neutral lines into character-specific phrasing using Generative AI techniques.
 
