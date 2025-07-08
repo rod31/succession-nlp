@@ -1,7 +1,11 @@
 # Succession NLP – Sarcasm Detection & Character Style Transfer
 
 ## 💬 Overview
-This project explores natural language processing techniques to classify **sarcasm** in dialogue from the TV series *Succession*, and to generate text in the style of specific characters. Up to this moment, I focused on generating text in the style of Roman Roy, who is known for his snarky remarks.
+This project explores natural language processing techniques to classify **sarcasm** in dialogue from the TV series *Succession*, and to generate text in the style of specific characters. Up to this moment, I focused on generating text in the style of Roman Roy, who is known for his sharp wit and snarky remarks.
+
+Sarcasm is a very complex and nuanced language feature. It often depends on context, tone, and shared knowledge, making it especially hard to detect using only text-based models. However, sarcasm detection can potentially present many commercial applications, like analyzing online reviews of products, services (such as restaurants, hotels, and books), and opinions on topics ranging from politics to personal experiences.
+
+It's also possible that sarcasm detection in social media posts can provide insights into mental health issues by identifying shifts in tone, emotional state, or social behavior. Sarcasm can be a form of indirect expression, often masking feelings of frustration, loneliness, or sadness, especially in online environments. When used excessively or in contexts that deviate from typical patterns, it may reflect underlying stress, anxiety, or depressive symptoms. Detecting these nuances through machine learning could contribute to early mental health screening and help researchers understand how people express emotional distress digitally. 
 
 Using transformer-based models (BERT), the project fine-tunes and evaluates multiple architectures for sarcasm detection. It also implements **style-aware text generation**, transforming neutral lines into character-specific phrasing using Generative AI techniques.
 
